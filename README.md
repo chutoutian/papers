@@ -1,5 +1,7 @@
-# papers
-papers I have read and plan to read 
+Papers I have read and plan to read 
+
+# Multimedia and Networking
+
 ## ABR
 <details>
   <summary>BOLA: Near-optimal bitrate adaptation for online videos [INFOCOM16]
@@ -37,7 +39,7 @@ Modern video players employ complex algorithms to adapt the bitrate of the video
 
 
 
-## Live Streaming
+## Live Streaming/Transmission
 <details>
   <summary>Salsify: Low-latency network video through tighter integration between a video codec and a transport protocol [NSDI18]
   </summary>
@@ -61,5 +63,45 @@ video streaming [TON21]
 
 <details>
   <summary>Darwin: Flexible learning-based CDN caching [SIGCOMM23]
+  </summary>
+</details>
+
+
+
+
+# Wireless System and Networking
+
+<details>
+  <summary>Networking across boundaries: enabling wireless communication through the water-air interface [SIGCOMM18]
+  </summary>
+</details>
+
+<details>
+  <summary>Underwater backscatter networking [SIGCOMM19]
+  </summary>
+</details>
+
+<details>
+  <summary>Battery-free wireless imaging of underwater
+environments [NC21]
+  </summary>
+</details>
+
+<details>
+  <summary>Underwater messaging using mobile devices [SIGCOMM22]
+  </summary>
+</details>
+
+# Machine Learning and Systems
+
+# Misc
+
+<details>
+  <summary>Visage: enabling timely analytics for drone imagery [MOBICOM21]
+  </summary>
+</details>
+
+<details>
+  <summary>Dashlet: taming swipe uncertainty for robust short video streaming [NSDI23]
   </summary>
 </details>

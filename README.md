@@ -57,7 +57,28 @@ video streaming [TON21]
   Real-time communication (RTC) applications like video conferencing or cloud gaming require consistent low latency to provide a seamless interactive experience. However, wireless networks including WiFi and cellular, albeit providing a satisfactory median latency, drastically degrade at the tail due to frequent and substantial wireless bandwidth fluctuations. We observe that the control loop for the sending rate of RTC applications is inflated when congestion happens at the wireless access point (AP), resulting in untimely rate adaption to wireless dynamics. Existing solutions, however, suffer from the inflated control loop and fail to quickly adapt to bandwidth fluctuations. In this paper, we propose Zhuge, a pure wireless AP based solution that reduces the control loop of RTC applications by separating congestion feedback from congested queues. We design a Fortune Teller to precisely estimate per-packet wireless latency upon its arrival at the wireless AP. To make Zhuge deployable at scale, we also design a Feedback Updater that translates the estimated latency to comprehensible feedback messages for various protocols and immediately delivers them back to senders for rate adaption. Trace-driven and real-world evaluation shows that Zhuge reduces the ratio of large tail latency and RTC performance degradation by 17% to 95%.
 </details>
 
+## 3D Video
+<details>
+  <summary>Flare: practical viewport-adaptive 360-degree video
+streaming for mobile devices [MOBICOM18]
+  </summary>
+</details>
 
+<details>
+  <summary>Pano: optimizing 360° video streaming with a better understanding of quality perception [SIGCOMM19]
+  </summary>
+</details>
+
+<details>
+  <summary>The prefetch aggressiveness tradeoff in 360° video streaming [MMSys18]
+  </summary>
+</details>
+
+<details>
+  <summary>Dragonfly: higher perceptual quality For continuous 360° video
+playback[SIGCOMM23]
+  </summary>
+</details>
 
 ## CDN
 

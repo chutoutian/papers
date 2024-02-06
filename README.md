@@ -23,13 +23,43 @@ Modern video players employ complex algorithms to adapt the bitrate of the video
   </summary>
 </details>
 
+<details>
+  <summary>Learning in situ: a randomized experiment in video streaming [NSDI20]
+  </summary>
+</details>
+
+<details>
+  <summary>Veritas: Answering causal queries from video streaming traces [SIGCOMM23]
+  </summary>
+</details>
+
+
+
 
 
 ## Live Streaming
+<details>
+  <summary>Salsify: Low-latency network video through tighter integration between a video codec and a transport protocol [NSDI18]
+  </summary>
+</details>
+
+<details>
+  <summary>Towards optimal low-latency live
+video streaming [TON21]
+  </summary>
+</details>
+
 <details>
   <summary>Achieving consistent low latency for wireless real-time communications with the shortest control loop [SIGCOMM22]
   </summary>
   Real-time communication (RTC) applications like video conferencing or cloud gaming require consistent low latency to provide a seamless interactive experience. However, wireless networks including WiFi and cellular, albeit providing a satisfactory median latency, drastically degrade at the tail due to frequent and substantial wireless bandwidth fluctuations. We observe that the control loop for the sending rate of RTC applications is inflated when congestion happens at the wireless access point (AP), resulting in untimely rate adaption to wireless dynamics. Existing solutions, however, suffer from the inflated control loop and fail to quickly adapt to bandwidth fluctuations. In this paper, we propose Zhuge, a pure wireless AP based solution that reduces the control loop of RTC applications by separating congestion feedback from congested queues. We design a Fortune Teller to precisely estimate per-packet wireless latency upon its arrival at the wireless AP. To make Zhuge deployable at scale, we also design a Feedback Updater that translates the estimated latency to comprehensible feedback messages for various protocols and immediately delivers them back to senders for rate adaption. Trace-driven and real-world evaluation shows that Zhuge reduces the ratio of large tail latency and RTC performance degradation by 17% to 95%.
 </details>
 
-## 3D Video
+
+
+## CDN
+
+<details>
+  <summary>Darwin: Flexible learning-based CDN caching [SIGCOMM23]
+  </summary>
+</details>

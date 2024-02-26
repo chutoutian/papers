@@ -39,7 +39,7 @@ Modern video players employ complex algorithms to adapt the bitrate of the video
 
 
 
-## Live Streaming/Transmission
+## Live Streaming/Real-time Communication
 <details>
   <summary>Salsify: Low-latency network video through tighter integration between a video codec and a transport protocol [NSDI18]
   </summary>
@@ -48,6 +48,17 @@ Modern video players employ complex algorithms to adapt the bitrate of the video
 <details>
   <summary>Towards optimal low-latency live
 video streaming [TON21]
+  </summary>
+</details>
+
+<details>
+  <summary>Converge: QoE-driven multipath video conferencing over WebRTC [SIGCOMM23]
+  </summary>
+</details>
+
+<details>
+  <summary>TwinStar: A practical multi-path transmission framework for
+ultra-Low latency video delivery [ACMMM23]
   </summary>
 </details>
 
